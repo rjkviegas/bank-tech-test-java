@@ -5,7 +5,9 @@ public class Account {
     public Account() {
         this.balance = 0;
     }
-    public int getBalance() {
-        return this.balance;
+    public int getBalance() { return this.balance; }
+
+    public void deposit(int amount) {
+        this.balance += amount;
     }
 }
